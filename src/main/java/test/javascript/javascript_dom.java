@@ -10,7 +10,7 @@ public class javascript_dom {
 
 	public static void main(String[] args) throws IOException {
 		Document doc = Jsoup.parse(new File("EmploymentInfo.html"), "UTF-8");
-		doc.getElementById("title_postion").html("平面设计/产品设计1");
+		doc.getElementById("title_postion").html("平面设计/产品设计");
 		doc.getElementById("title_employ_nums").html("招聘5人");
 		doc.getElementById("title_employ_money").html("3k-5K/月");
 		doc.getElementById("title_employ_company").html("小付钱包技术（北京）有限公司（北京）");
